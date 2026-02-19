@@ -42,7 +42,7 @@ Open your browser and go to a link like: [http://localhost:3000](http://localhos
 ![Home Page](screenshots/home.jpg)  <!-- Replace with your actual screenshot -->
 
 **Results Page:**  
-![Results Page](screenshots/results.jpg)  <!-- Replace with your actual screenshot -->
+![Results Page](screenshots/Results.jpg)  <!-- Replace with your actual screenshot -->
 
 > Make sure to save your screenshots in a folder called `screenshots` inside the repo.
 
