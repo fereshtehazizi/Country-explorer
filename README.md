@@ -7,20 +7,22 @@ A simple web application that allows users to search for countries and view resu
 ## How to Run
 
 1. **Clone the respository**
-bash
+ ---
+ bash
+ ---
 git clone https://github.com/fereshtehazizi/Country-explorer.git
 
-2. **Navigate into the project folder**  
+3. **Navigate into the project folder**  
 cd Country-explorer
 
-3. **Install dependencies**  
+4. **Install dependencies**  
 npm install
   
-4. **Start the development server**  
+5. **Start the development server**  
 npm start  
 
 
-5. **View in browser**  
+6. **View in browser**  
 Open your browser and go to a link like: [http://localhost:3000](http://localhost:3000)
 
 ---
@@ -43,9 +45,6 @@ Open your browser and go to a link like: [http://localhost:3000](http://localhos
 
 **Results Page:**  
 ![Results Page](screenshots/Results.jpg)  <!-- Replace with your actual screenshot -->
-
-> Make sure to save your screenshots in a folder called `screenshots` inside the repo.
-
 ---
 
 ## Author
