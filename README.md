@@ -7,9 +7,7 @@ A simple web application that allows users to search for countries and view resu
 ## How to Run
 
 1. **Clone the respository**
- ---
  bash
- ---
 git clone https://github.com/fereshtehazizi/Country-explorer.git
 
 3. **Navigate into the project folder**  
