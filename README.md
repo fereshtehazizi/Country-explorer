@@ -6,27 +6,22 @@ A simple web application that allows users to search for countries and view resu
 
 ## How to Run
 
-1. **Download the project**  
-Click the green **Code** button on GitHub and select **Download ZIP**.  
-Or visit: [https://github.com/fereshtehazizi/Country-explorer](https://github.com/fereshtehazizi/Country-explorer)
+1. **Clone the respository**
+bash
+git clone https://github.com/fereshtehazizi/Country-explorer.git
 
-2. **Extract the ZIP file**  
-Extract the folder to a location on your computer (e.g., Desktop or Documents).
+2. **Navigate into the project folder**  
+cd Country-explorer
 
-3. **Open the project folder**  
-Double-click the folder to open it.
-
-4. **Install dependencies**  
-Make sure you have [Node.js](https://nodejs.org/) installed.  
-Open the project folder in **VS Code** or any code editor, then open the **terminal in VS Code** and run:  
-
-
-5. **Start the development server**  
-In the same terminal, run:  
+3. **Install dependencies**  
+npm install
+  
+4. **Start the development server**  
+npm start  
 
 
-6. **View in browser**  
-Open your browser and go to: [http://localhost:3000](http://localhost:3000)
+5. **View in browser**  
+Open your browser and go to a link like: [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -35,17 +30,19 @@ Open your browser and go to: [http://localhost:3000](http://localhost:3000)
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `https://restcountries.com/v3.1/all` | GET | Fetches a list of all countries |
-| `https://restcountries.com/v3.1/name/{name}` | GET | Searches for a specific country by name |
+| `https://restcountries.com/v3.1/name/${query}` | GET | Searches for a specific country by name |
+| `https://restcountries.com/v3.1/region/${region}` | GET | Searches for a specific country by region |
+
 
 ---
 
 ## Screenshots
 
 **Home Page:**  
-![Home Page](screenshots/home.png)  <!-- Replace with your actual screenshot -->
+![Home Page](screenshots/home.jpg)  <!-- Replace with your actual screenshot -->
 
 **Results Page:**  
-![Results Page](screenshots/results.png)  <!-- Replace with your actual screenshot -->
+![Results Page](screenshots/results.jpg)  <!-- Replace with your actual screenshot -->
 
 > Make sure to save your screenshots in a folder called `screenshots` inside the repo.
 
